@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tip-container {
+  text-align: center;
+  border: 2px solid #A52A2A;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #A52A2A;
+  color: #FFFDD0;
+  border: none;
+  border-radius: 5px;
+}
