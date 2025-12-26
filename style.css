@@ -24,3 +24,7 @@ button {
   border: none;
   border-radius: 5px;
 }
+.dark {
+  background: #f5f5f5;
+  color: #1e1e1e;
+}

@@ -18,3 +18,13 @@ document.getElementById('new-tip').onclick = () => {
   tipEl.textContent = tip;
   localStorage.setItem('lastTip', tip);
 };
+const toggle = document.getElementById('theme-toggle');
+toggle.onclick = () => {
+  document.body.classList.toggle('dark');
+  localStorage.setItem('theme',
+    document.body.classList.contains('dark') ? 'dark' : 'light');
+};
+
+if (localStorage.getItem('theme') === 'dark') {
+  document.body.classList.add('dark');
+}
